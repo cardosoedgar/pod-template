@@ -17,7 +17,6 @@ module Pod
       configurator.add_pod_to_podfile "Quick', '~> 2.1.0"
       configurator.add_pod_to_podfile "Nimble', '~> 8.0.2"
       configurator.add_pod_to_podfile "Nimble-Snapshots', '~> 7.1.0"
-      configurator.set_test_framework "quick", "swift", "swift"
 
       Pod::ProjectManipulator.new({
         :configurator => @configurator,
