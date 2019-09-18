@@ -23,7 +23,7 @@ module Pod
         :xcodeproj_path => "templates/swift/Example/PROJECT.xcodeproj",
         :platform => :ios,
         :remove_demo_project => (keep_demo == :no),
-        :prefix => "C6"
+        :prefix => ""
       }).run
 
       `mv ./templates/swift/* ./`
