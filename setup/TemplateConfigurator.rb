@@ -90,7 +90,7 @@ module Pod
       clean_template_files
       rename_template_files
       add_pods_to_podfile
-      customise_prefix
+      # customise_prefix
       rename_classes_folder
       ensure_carthage_compatibility
       reinitialize_git_repo
@@ -154,14 +154,14 @@ module Pod
       @prefixes << line
     end
 
-    def customise_prefix
-      prefix_path = "Example/Tests/Tests-Prefix.pch"
-      return unless File.exists? prefix_path
-
-      pch = File.read prefix_path
-      pch.gsub!("${INCLUDED_PREFIXES}", @prefixes.join("\n  ") )
-      File.open(prefix_path, "w") { |file| file.puts pch }
-    end
+    # def customise_prefix
+    #   prefix_path = "Example/Tests/Tests-Prefix.pch"
+    #   return unless File.exists? prefix_path
+    #
+    #   pch = File.read prefix_path
+    #   pch.gsub!("${INCLUDED_PREFIXES}", @prefixes.join("\n  ") )
+    #   File.open(prefix_path, "w") { |file| file.puts pch }
+    # end
 
     def rename_template_files
       FileUtils.mv "POD_README.md", "README.md"
