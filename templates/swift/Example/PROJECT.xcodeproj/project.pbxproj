@@ -30,7 +30,7 @@
 		73BC68082331E29E00E38310 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		73BC680B2331E29E00E38310 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		73BC680D2331E29E00E38310 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		73BC68122331E29F00E38310 /* PROJECTTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PROJECTTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		73BC68122331E29F00E38310 /* PROJECT_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PROJECT_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		73BC68182331E29F00E38310 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -66,7 +66,7 @@
 			isa = PBXGroup;
 			children = (
 				73BC67FE2331E29D00E38310 /* PROJECT_Example.app */,
-				73BC68122331E29F00E38310 /* PROJECTTests.xctest */,
+				73BC68122331E29F00E38310 /* PROJECT_Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -135,9 +135,9 @@
 			productReference = 73BC67FE2331E29D00E38310 /* PROJECT_Example.app */;
 			productType = "com.apple.product-type.application";
 		};
-		73BC68112331E29F00E38310 /* PROJECTTests */ = {
+		73BC68112331E29F00E38310 /* PROJECT_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 73BC681E2331E29F00E38310 /* Build configuration list for PBXNativeTarget "PROJECTTests" */;
+			buildConfigurationList = 73BC681E2331E29F00E38310 /* Build configuration list for PBXNativeTarget "PROJECT_Tests" */;
 			buildPhases = (
 				73BC680E2331E29F00E38310 /* Sources */,
 				73BC680F2331E29F00E38310 /* Frameworks */,
@@ -148,9 +148,9 @@
 			dependencies = (
 				73BC68142331E29F00E38310 /* PBXTargetDependency */,
 			);
-			name = PROJECTTests;
+			name = PROJECT_Tests;
 			productName = PROJECTTests;
-			productReference = 73BC68122331E29F00E38310 /* PROJECTTests.xctest */;
+			productReference = 73BC68122331E29F00E38310 /* PROJECT_Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -186,7 +186,7 @@
 			projectRoot = "";
 			targets = (
 				73BC67FD2331E29D00E38310 /* PROJECT_Example */,
-				73BC68112331E29F00E38310 /* PROJECTTests */,
+				73BC68112331E29F00E38310 /* PROJECT_Tests */,
 			);
 		};
 /* End PBXProject section */
@@ -470,7 +470,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		73BC681E2331E29F00E38310 /* Build configuration list for PBXNativeTarget "PROJECTTests" */ = {
+		73BC681E2331E29F00E38310 /* Build configuration list for PBXNativeTarget "PROJECT_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				73BC681F2331E29F00E38310 /* Debug */,
